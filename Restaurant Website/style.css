@@ -1,0 +1,837 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: black;
+}
+
+.homepage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the header */
+    position: relative;
+    background-color: transparent;
+}
+
+.header {
+    width: 1152px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+}
+
+.logo {
+    width: 168px;
+    height: 35px;
+}
+
+.navbar {
+    width: 434px;
+    height: 20px;
+    margin-top: 35px;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #ad0c0c;
+    font-weight: bold;
+    font-size: 16px;
+    transition: box-shadow 0.3s; /* Adding a transition effect to the box-shadow */
+  }
+  .navbar a:hover {
+    box-shadow: 0 0 10px rgba(27, 221, 156, 0.50); /* Adjust the values to control the glow effect */
+  }
+  
+  
+
+.button {
+    width: 137px;
+    height: 44px;
+    background-color: #EA6D27;
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom */
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.Ellipse-3 {
+    width: 760px;
+    height: 760px;
+    position: absolute;
+    top: -452px;
+    left: -538px;
+}
+
+.Ellipse-4 {
+    width: 960px;
+    height: 960px;
+    top: -353.84px;
+    left: -304px;
+    transform: rotate(17.41deg); /* Apply rotation angle */
+    position: absolute;
+}
+.Ellipse-5 {
+    width: 960px;
+    height: 960px;
+    top: -428px;
+    left: -450px;
+    position: absolute;
+}
+.Group-1 {
+    width: 104.64px;
+    height: 104px;
+    top: 100px;
+    left: 119px;
+    position: absolute;
+}
+.Leaf-1 {
+    width: 400px;
+    height: 152px;
+    top: 100px;
+    left: 500px;
+    right: 421px;
+    position: absolute;
+}
+.Leaf-2{
+    width: 215.27px;
+    height: 199.11px;
+    top: 80px;
+    left: 1000px;
+    position: absolute;
+}
+.Leaf-3{
+    width: 215.27px;
+    height: 199.11px;
+    top: 420px;
+    left: 1000px;
+    position: absolute;
+    z-index: -1;
+}
+.heading {
+    width: 340px;
+    height: 120px;
+    top: 240px;
+    left: 180px;
+    position: absolute;
+    background-color: transparent;
+}
+.heading h1{
+    font-size: 46px;
+}
+.description {
+    width: 275px;
+    height: 70px;
+    top: 380;
+    left: 180px;
+    position: absolute;
+    background-color: transparent;
+}
+.main-img {
+    width: 400px;
+    height: 480px;
+    position: absolute;
+    top: 130;
+    left: 730px;
+}
+.for-img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+.M-btn{
+    width: 120px;
+    height: 54px;
+    top: 470px;
+    left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101A24;
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom */
+}
+.M-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.b-btn{
+    width: 160px;
+    height: 54px;
+    top: 470px;
+    left: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EA6D27;
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom */
+
+}
+.b-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.logo-1 {
+    width: 29px;
+    height: 29px;
+    top: 550;
+    position: absolute;
+    border-radius: 50%; /* Make it a circle */
+    background-color: transparent; /* Remove any existing background color */
+}
+.facebook {
+    left: 188px;
+    border: 2px solid black;
+}
+
+.instagram {
+    left: 240px;
+    border: 2px solid black;
+}
+
+.twitter {
+    left: 292px;
+    border: 2px solid black;
+}
+.main-page {
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the header */
+    position: relative;
+    background-color: rgb(230, 223, 223);
+    overflow: hidden;
+
+}
+.leaf-4 {
+    width: 224.2px;
+    height: 212.7px;
+    top: 50px;
+    left: 220px;
+    position: absolute;
+}
+.leaf-5 {
+    width: 180.6px;
+    height: 257px;
+    position: absolute;
+    left: 800;
+    top: 50px;
+}
+.intro {
+width: 476px;
+height: 160px;
+position: absolute;
+background-color: transparent;
+top: 90px;
+display: inline;
+justify-content: center;
+align-items: center;
+}
+.intro h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.intro p {
+    margin: 20 0 0 20px;
+}
+.menu {
+    width: 1100px;
+    height: 420px;
+    position: absolute;
+    background-color: transparent;
+    top: 310;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dish-1 {
+    width: 220px;
+    height: 380px;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    position: relative; /* Add position relative to enable positioning of child elements */
+}
+
+.dish-01 {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: -10px auto 0; /* Adjust the top margin to overlap from the upper side */
+    position: absolute; /* Position the image absolutely within the .dish-1 div */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    right: 0; /* Position at the right */
+    z-index: 2;
+}
+
+.detail {
+    width: 220px;
+    height: 280px;
+    top: 100;
+    background-color: transparent;
+    border: 1px solid white; /* Optional: Add a border for visualization */
+    border-top-left-radius: 40px; /* Rounded top-left corner */
+    border-bottom-right-radius: 40px;
+    position: relative; /* Add position relative to position content within .detail */
+    padding-top: 50px; /* Add padding to the top to create space for the overlapped image */
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+.detail:hover {
+    background-color: white; /* Change the background color to white on hover */
+}
+
+/* Style the text within .detail as needed */
+.detail h3 {
+    font-size: 18px;
+    margin-top: 80px;
+
+}
+
+.detail p {
+    font-size: 14px;
+    margin-top: 25px;
+}
+.onion {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 190px;
+    top: 320;
+ 
+}
+.garlic {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 5px;
+    top: 320;
+}
+.piece {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 360;
+    right: 150;
+}
+.brocli{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+}
+.dish-main{
+    width: 619px;
+    height: 567px;
+    position: absolute;
+    top: 500;
+    left: -50;
+}
+.g-leaf-1 {
+    width: 194px;
+    height: 129px;
+    position: absolute;
+    top: 600;
+
+}
+.g-leaf-2 {
+    height: 189;
+    width: 91;
+    position: absolute;
+    top: 640;
+    left: -40;
+}
+.g-leaf-3{
+    height: 178;
+    width: 96;
+    position: absolute;
+    top:800;
+    left: 280;
+}
+.g-leaf-4{
+    height: 133;
+    width: 209;
+    position: absolute;
+    top: 950;
+    left: 10;
+
+}
+.display {
+    height: 300px;
+    width: 400px;
+    background-color: transparent;
+    position: absolute;
+    top: 670;
+    transform: translateX(90%); /* This moves it to the right by 50% of its own width */
+    text-align: start; /* Center text horizontally */
+    color: black;
+    padding: 20px;
+}
+
+  
+  h2 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-button {
+    margin-right: 5px;
+  }
+  
+  .table-button {
+    margin-left: 5px;
+  }
+  
+  .menu-button{
+    width: 120px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101A24;
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom */
+}
+.menu-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.table-button{
+    width: 160px;
+    height: 54px;
+    transform: translateX(90%); /* This moves it to the right by 50% of its own width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EA6D27;
+    border-top-left-radius: 20px; /* Rounded top-left corner */
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom */
+
+}
+.table-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.flower {
+    width: 224px;
+    height: 212px;
+    position: absolute;
+    top: 570;
+    transform: translateX(90%); /* This moves it to the right by 50% of its own width */
+}
+.piece-1{
+    width: 90;
+    height: 81;
+    position: absolute;
+    top: 870;
+    transform: translateX(90%); /* This moves it to the right by 50% of its own width */
+    
+}
+.piece-2 {
+    width: 90px; /* Added "px" to specify width */
+    height: 81px; /* Added "px" to specify height */
+    position: absolute;
+    top: 970px; /* Added "px" to specify top position */
+   right: 200px;
+
+}
+.brocli-1{
+    width: 450px;
+    height: 320px;
+    position: absolute;
+    top: 970px; /* Added "px" to specify top position */
+   right: -290px;
+   transform: scaleX(-1);
+}
+
+.chef-page{
+    height: 100vh; /* 100% of viewport height */
+    width: 100%; /* 100% width */
+    background-color: white;
+    margin-top: 0;
+    display: flex;
+
+ 
+}
+.left-div {
+    height: 450px;
+    width: 509px;
+    background-color: transparent;
+    margin-top: 182px;
+    margin-left: 182px;
+    padding: 10px; /* Add padding for spacing */
+}
+
+
+.cef-atts {
+    height: 150px;
+    width: 380px;
+    background-color: transparent;
+    margin-top: auto;
+    margin-left: 0;
+    padding: 10px; 
+}
+.cef-atts h1{
+    font-size: 44px;
+}
+.cef-atts p{
+    margin-top: 20px;
+}
+
+.cef-qualities {
+    height: 219px;
+    width: 500px;
+    background-color: transparent;
+    margin-top: auto;
+    margin-left: 0px;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.quality{
+    height: 51px;
+    width: 220px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.quality img{
+    height: 24px;
+    width: 24px;
+}
+.quality p {
+    margin-left: 10px;
+}
+.buttons {
+    width: 312px;
+    height: 74px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.right-div{
+    width: 507px;
+    height: 695px;
+    background-color: transparent;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.testimonials{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(230, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Added for positioning the h1 */
+}
+
+.contact img {
+    width: 1151px;
+    height: 407px;
+    display: block;
+    position: absolute; /* Added for positioning the h1 */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both ways */
+}
+
+.contact h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: absolute; /* Position h1 on top of the image */
+    top: 40%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both ways */
+}
+.input-container {
+    display: flex;
+    margin-top: 190px;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.input-container input[type="text"] {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    color: rgb(17, 2, 2);
+    width: 450px;
+}
+
+.input-container input[type="submit"] {
+    padding: 15px 40px;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #EA6D27;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    height: 410px;
+    width: 1153px;
+    background-color: transparent;
+    margin: auto;
+    background-image: url('images/Group.png'); /* Replace 'your-image.png' with the path to your image */
+    background-size: cover; /* Adjust the background-size property as needed */
+    background-position: center; /* Center the background image */
+    position: relative;
+}
+.footer-content {
+    height: 156px;
+    width: 390px;
+    background-color: transparent;
+    padding: 20px; /* Add padding for spacing */
+    color: black;
+}
+
+.logo {
+    max-width: 100%; /* Ensure the logo fits within the div */
+    display: block;
+}
+
+p {
+   
+    font-size: 16px;
+    margin-top: 30px;
+}
+.timing{
+    width: 446px;
+    height: 90px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.timing h7 {
+    font-size: 12px;
+    font-weight: 600;
+   
+}
+.TN{
+    width: 446px;
+    height: 58px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.navigation {
+    width: 100px;
+    height: 190px;
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    margin-left: 486px;
+    margin-top: -236px;
+}
+
+.navigation h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 20px 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: block;
+}
+
+.navigation-1 {
+    width: 150px;
+    height: 180px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-right: 360px; /* Adjust the margin-left to create space between the two divs */
+    margin-top: -190px;
+    float: right; /* Float the divs to arrange them side by side */
+}
+
+.navigation-1 h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.navigation-1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-1 li {
+    margin: 20px 0;
+}
+
+.navigation-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: block;
+}
+.social-media {
+    width: 180px;
+    height: 96px;
+    background-color: transparent; /* Adjust the background color as needed */
+    text-align: left;
+    color: black;
+    padding: 10px;
+    margin-right: 140px; /* Adjust the margin-left to create space between the divs */
+    margin-top: -170px;
+    float: right; /* Float the divs to arrange them side by side */
+}
+
+.social-media h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 5px; /* Adjust the margin for spacing between social media icons */
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the width of the social media icons as needed */
+    height: 30px; /* Adjust the height of the social media icons as needed */
+}
+.line {
+    width: 1155px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    margin-top: 100px;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #F3F4F4;
+}
+.swiper {
+    width: 40%;
+    height: 80%;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: white;
+    display: flex;
+    margin-top: 55%;
+    height: 310px;
+    width: 539px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 80px 25px 80px 25px;
+  }
+  .swiper-slide p{
+    font-size: 18px;
+    width: 60%;
+    
+  }
+  .swiper-slide img {
+    display: block;
+    width: 109px;
+    height: 109px;
+    margin-top: -100px;
+    border-radius: 50%;
+  
+  }
+  .swiper-slide h3 {
+    font-size: 3vw;
+    width: 70%;
+  }
+  .swiper-pagination {
+    margin-top: 40px;
+  }
